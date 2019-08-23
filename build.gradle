@@ -3,8 +3,12 @@ apply plugin: 'idea'
 apply plugin: 'eclipse'
 
 version = '1.0'
+
 repositories {
-    mavenCentral()
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        mavenCentral()
+    // mavenCentral()
 }
 
 jar {

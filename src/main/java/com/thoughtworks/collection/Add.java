@@ -15,5 +15,7 @@ public class Add {
 
     public double getAverageOfEven(List<Integer> arrayList) {
         throw new NotImplementedException();
+        
+        
     }
 }
